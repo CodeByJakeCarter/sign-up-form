@@ -52,7 +52,7 @@
       <div class="two">
         <div class="wrapper">
           <p class="title">Time to jump in!</p>
-          <form action="/handling-form-page" method="post">
+          <form id="a-form" action="/handling-form-page" method="post">
             <ul>
               <li>
                 <label for="firstName">First Name</label>
@@ -91,6 +91,12 @@
             </ul>
           </form>
         </div>
+        <button id="submitButton" type="submit" form="a-form">
+          Create Account
+        </button>
+        <p class="login">
+          Already have an account? <a href="/login_url">Login</a>
+        </p>
       </div>
     </div>
   </body>

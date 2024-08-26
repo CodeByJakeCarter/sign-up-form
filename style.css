@@ -51,7 +51,7 @@ a {
   display: flex;
   flex: auto;
   flex-direction: column;
-  max-width: 902px;
+  max-width: 1153px;
 }
 .one,
 .two {
@@ -95,7 +95,52 @@ p.title {
 .wrapper {
   width: 100%;
   background-color: #2e2e2e;
+  padding: 0;
 }
 label {
   color: #ffd700;
+}
+label,
+input {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#password:invalid {
+  border: 5px solid #e21616;
+}
+#confirmPassword:invalid {
+  border: 5px solid #e21616;
+}
+input:focus-within {
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-radius: 2px;
+  outline: none;
+}
+#submitButton {
+  align-self: flex-start;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #3a4a3e;
+  color: #c0d6c0;
+  box-shadow: 1px 1px 1px;
+  border-style: none;
+}
+p.login {
+  color: #f0a07e;
+  align-self: flex-start;
+  margin-left: 10%;
+}
+p a {
+  text-decoration: none;
 }
