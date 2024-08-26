@@ -49,7 +49,49 @@
           goes...
         </p>
       </div>
-      <div class="two"></div>
+      <div class="two">
+        <div class="wrapper">
+          <p class="title">Time to jump in!</p>
+          <form action="/handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="user_first_name" />
+              </li>
+              <li>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="user_last_name" />
+              </li>
+              <li>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="tel">Phone Number</label>
+                <input type="tel" id="tel" name="tel" />
+              </li>
+              <li>
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="user_password"
+                  required
+                />
+              </li>
+              <li>
+                <label for="confirmPassword">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="user_password_confirm"
+                  required
+                />
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>

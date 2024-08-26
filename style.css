@@ -69,3 +69,33 @@ a {
   font-size: 30px;
   margin-left: 10%;
 }
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul {
+  width: 80%;
+}
+ul li {
+  width: 39%;
+  display: inline-block;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+form {
+  width: 80%;
+}
+p.title {
+  align-self: flex-start;
+  margin-left: 14%;
+  font-size: 30px;
+  color: #ffd700;
+}
+.wrapper {
+  width: 100%;
+  background-color: #2e2e2e;
+}
+label {
+  color: #ffd700;
+}
